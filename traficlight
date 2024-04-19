@@ -1,43 +1,52 @@
 package Avtivity;
-public class Traficlight {
-    // Private member variables representing the colors
+public class Traficlight 
+{
+	// Private member variables representing the colors
     private String red;
     private String yellow;
     private String green;
 
     // Constructor initializing all colors to "OFF"
-    public Traficlight() {
+    public Traficlight()
+    {
         this.red = "OFF";
         this.yellow = "OFF";
         this.green = "OFF";
     }
 
     // Methods to set and get the status of each light
-    public void setRed(String status) {
+    public void setRed(String status) 
+    {
         this.red = status;
     }
 
-    public void setYellow(String status) {
+    public void setYellow(String status)
+    {
         this.yellow = status;
     }
 
-    public void setGreen(String status) {
+    public void setGreen(String status) 
+    {
         this.green = status;
     }
 
-    public String getRed() {
+    public String getRed()
+    {
         return this.red;
     }
 
-    public String getYellow() {
+    public String getYellow()
+    {
         return this.yellow;
     }
 
-    public String getGreen() {
+    public String getGreen()
+    {
         return this.green;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // Create an instance of the TrafficLight class
     	Traficlight trafficLight = new Traficlight();
 
